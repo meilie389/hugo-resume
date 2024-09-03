@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/meilie389/hugo-resume
 
 go 1.21
 
