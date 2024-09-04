@@ -20,18 +20,13 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageCode: en
-    languageName: English
-    title: "John's Blog"
+  fr:
+    languageCode: fr
+    languageName: Français
+    title: "< meilie389 />"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: fr
 
 
 # Allow raw html in markdown file
@@ -63,9 +58,9 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: ""
+    inverted: ""
+    favicon: "/images/site/favicon.png"
 
   # GitHub repo of your site
   gitRepo: https://github.com/meilie389/hugo-resume
@@ -81,7 +76,7 @@ params:
 
     # Enable dark theme
     darkMode:
-      enable: true
+      enable: false
 
     # Enable and configure portfolio
     portfolio:
@@ -89,15 +84,15 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
         facebook: true
-        twitter: true
+        # twitter: true
         linkedin: true
-        reddit: true
-        whatsapp: true
+        # reddit: true
+        # whatsapp: true
         email: true
         # tumblr: true
         # pocket: true
@@ -106,7 +101,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:

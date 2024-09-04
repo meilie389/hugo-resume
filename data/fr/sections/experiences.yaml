@@ -1,0 +1,62 @@
+# section information
+section:
+  name: "EXPÉRIENCE"
+  id: "experiences"
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: "sections/experiences.html"
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+
+- company:
+    name: "ISI NC"
+    url: "https://isi.nc"
+    location: "67 rue Sébastopol - 98800 Nouméa"
+    overview: "Depuis 2004, ISI.NC fournit des solutions informatiques de qualité aux entreprises de Nouvelle-Calédonie.
+              Avec une équipe de plus de 30 experts, l'entreprise se spécialise dans le conseil,
+              l'intégration de progiciels et le développement de solutions sur mesure."
+  positions:
+  - designation: "Développeur"
+    start: "Jan 2021"
+    responsibilities:
+    - "Conception et gestion et développement de projets web et mobile"
+    - "Développement et intégration de solutions spécifiques"
+    - "Maintenance et mise à jour des systèmes"
+    - "Optimisation des processus et développement de nouveaux outils"
+
+- company:
+    name: "OPT-NC"
+    url: "https://office.opt.nc/fr"
+    location: "59 rue Georges Clemenceau - 98800 Nouméa"
+    overview: "Établissement public à caractère industriel et commercial (EPIC),
+              l'OPT-NC est un acteur clé du développement économique en Nouvelle-Calédonie,
+              offrant des services publics tout en étant entièrement autofinancé."
+  positions:
+  - designation: "Étudiant en alternance"
+    start: "Fév 2020"
+    end: "Déc 2020"
+    responsibilities:
+    - "Études et développement informatique dans le cadre de la licence professionnelle MIAW"
+    - "Création et gestion d'API"
+    - "Conception et développement d’applications mobiles"
+    - "Développement de sites web"
+    - "Création de logos et mascottes pour divers projets"
+
+- company:
+    name: "Université de la Nouvelle-Calédonie - L2K Innovation"
+    url: "https://unc.nc/"
+    location: "145 avenue James Cook - 98800 Nouméa"
+    overview: "L2K INNOVATION travaille avec le client comme bureau de recherche pour développer de
+              l’Open innovation dans son cœur de métier et breveter des solutions."
+  positions:
+  - designation: "Étudiant stagiaire"
+    start: "Nov 2018"
+    end: "Jan 2016"
+    responsibilities:
+    - "Platine Arduino et mesures environnementales en milieu lagonaire"
+    - "Conception et intégration d’une sonde de turbidité"
+    - "Développement d'un suivi des données de la sonde"

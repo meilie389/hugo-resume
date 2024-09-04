@@ -1,0 +1,37 @@
+# section information
+section:
+  name: "COMPÉTENCES"
+  id: "skills"
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: "sections/skills.html"
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: "HTML, CSS, SCSS, JavaScript"
+- name: "TypeScript"
+- name: "Python (Flask, Django REST)"
+- name: "Java (Spring Boot)"
+- name: "Go"
+- name: "C, C++"
+- name: "PHP (Symfony, Laravel)"
+- name: "SQL (SQLite, PostgreSQL, OracleDB)"
+
+- name: "Angular, React.js, Vue.js"
+- name: "React Native, Dart, Flutter"
+- name: "JQuery"
+- name: "Reveal.JS"
+- name: "Node.js"
+
+- name: "Git, GitLab, GitHub, GitHub Actions"
+- name: "Docker, Docker Compose"
+- name: "Kubernetes"
+- name: "Linux"
+
+- name: "IOT, LoRa WAN"
+- name: "Hugo"
+- name: "Elasticsearch, Logstash, Kibana"

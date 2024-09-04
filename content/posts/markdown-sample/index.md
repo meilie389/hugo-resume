@@ -80,7 +80,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 ```
 html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>Example HTML5 Document</title>
@@ -93,7 +93,7 @@ html
 #### Code block indented with four spaces
 
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="fr">
     <head>
       <meta charset="UTF-8">
       <title>Example HTML5 Document</title>
@@ -106,7 +106,7 @@ html
 #### Code block with Hugo's internal highlight shortcode
 {{< highlight html >}}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>Example HTML5 Document</title>
@@ -165,7 +165,7 @@ Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
 
 Block math:
 $$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
+ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$
 
 ---

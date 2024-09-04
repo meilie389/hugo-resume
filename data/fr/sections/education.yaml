@@ -1,0 +1,41 @@
+# section information
+section:
+  name: "FORMATION"
+  id: "education"
+  template: "sections/education.html"
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+
+- name: "Licence professionnelle - Métiers de l’informatique : Applications Web"
+  icon: "fa-school"
+  timeframe: "Fév 2020 - Déc 2020"
+  institution:
+    name: "Université de la Nouvelle-Calédonie"
+    url: "#"
+
+- name: "BTS - Systèmes numériques, option Informatique et réseaux"
+  icon: "fa-school"
+  timeframe: "Fév 2018 - Déc 2019"
+  institution:
+    name: "Lycée du Mont-dore"
+    url: "#"
+
+- name: "Licence - Mathématiques et informatique ( non obtenu - réorientation )"
+  icon: "fa-school-circle-exclamation"
+  timeframe: "Fév 2018 - Déc 2019"
+  institution:
+    name: "Université de la Nouvelle-Calédonie"
+    url: "#"
+
+- name: "Baccalauréat - Scientifique, spécialité mathématiques"
+  icon: "fa-school"
+  timeframe: "Fév 2018 - Déc 2019"
+  institution:
+    name: "Lycée du Grand Nouméa"
+    url: "#"
+

@@ -1,0 +1,28 @@
+# section information
+section:
+  name: "ACCOMPLISSEMENTS"
+  id: "accomplishments"
+  enable: false
+  weight: 7
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: "Administrateur Système de la Linux Foundation"
+  timeline: "Mars 2018 - Mars 2019"
+  organization:
+    name: "Linux Foundation"
+    url: "https://www.linuxfoundation.org"
+  courseOverview:  "Ce cours permet de comprendre les concepts clés tels que le réseau, le stockage, la sécurité, la maintenance, la journalisation et la surveillance, le cycle de vie des applications, le dépannage, les objets API primitifs, etc. Il aide également à développer la capacité à établir des cas d'utilisation de base pour les utilisateurs finaux."
+  certificateURL: "https://example.com"
+
+- name: "Apprentissage Automatique (Machine Learning)"
+  timeline: "Juin 2020 - Jan 2021"
+  organization:
+    name: "Coursera"
+    url: "https://www.coursera.org"
+  courseOverview: "Ce cours offre une introduction générale à l'apprentissage automatique, au datamining et à la reconnaissance statistique des formes. Les sujets incluent : (i) L'apprentissage supervisé (algorithmes paramétriques/non paramétriques, machines à vecteurs de support, noyaux, réseaux neuronaux). (ii) L'apprentissage non supervisé (clustering, réduction de dimensionnalité, systèmes de recommandation, apprentissage profond). (iii) Les meilleures pratiques en apprentissage automatique (théorie biais/variance ; processus d'innovation en apprentissage automatique et IA)."
+  certificateURL: "https://example.com"

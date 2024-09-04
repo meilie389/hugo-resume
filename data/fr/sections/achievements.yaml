@@ -1,0 +1,19 @@
+# section information
+section:
+  name: "RÉALISATIONS"
+  id: "achievements"
+  enable: false
+  weight: 8
+  showOnNavbar: false
+  template: sections/achievements.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: "Meilleur Présentateur"
+  image: "/images/sections/achievements/presenter.jpg"
+  summary: "Meilleur présentateur à la conférence XYZ 2020"
+- title: "Champion"
+  image: "/images/sections/achievements/sport.jpg"
+  summary: "Champion du championnat inter-villes de cyclisme 2020"
