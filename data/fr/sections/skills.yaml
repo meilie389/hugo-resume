@@ -1,4 +1,3 @@
-# section information
 section:
   name: "COMPÉTENCES"
   id: "skills"
@@ -6,32 +5,69 @@ section:
   weight: 2
   showOnNavbar: true
   template: "sections/skills.html"
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
+
 skills:
 - name: "HTML, CSS, SCSS, JavaScript"
+  percentage: 4
+  color: "primary"
 - name: "TypeScript"
+  percentage: 4
+  color: "primary"
 - name: "Python (Flask, Django REST)"
+  percentage: 3
+  color: "primary"
 - name: "Java (Spring Boot)"
+  percentage: 3
+  color: "primary"
 - name: "Go"
+  percentage: 2
+  color: "primary"
 - name: "C, C++"
+  percentage: 1
+  color: "primary"
 - name: "PHP (Symfony, Laravel)"
+  percentage: 2
+  color: "primary"
 - name: "SQL (SQLite, PostgreSQL, OracleDB)"
-
+  percentage: 4
+  color: "primary"
 - name: "Angular, React.js, Vue.js"
+  percentage: 4
+  color: "primary"
 - name: "React Native, Dart, Flutter"
+  percentage: 3
+  color: "primary"
 - name: "JQuery"
+  percentage: 4
+  color: "primary"
 - name: "Reveal.JS"
+  percentage: 1
+  color: "primary"
 - name: "Node.js"
-
+  percentage: 3
+  color: "primary"
 - name: "Git, GitLab, GitHub, GitHub Actions"
+  percentage: 2
+  color: "primary"
 - name: "Docker, Docker Compose"
+  percentage: 2
+  color: "primary"
 - name: "Kubernetes"
+  percentage: 2
+  color: "primary"
 - name: "Linux"
-
+  percentage: 3
+  color: "primary"
 - name: "IOT, LoRa WAN"
+  percentage: 1
+  color: "primary"
 - name: "Hugo"
+  percentage: 1
+  color: "primary"
 - name: "Elasticsearch, Logstash, Kibana"
+  percentage: 1
+  color: "primary"
+- name: "Agile, Scrum"
+  percentage: 3
+  color: "primary"

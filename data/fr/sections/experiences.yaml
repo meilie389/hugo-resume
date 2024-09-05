@@ -1,4 +1,3 @@
-# section information
 section:
   name: "EXPÉRIENCE"
   id: "experiences"
@@ -6,12 +5,9 @@ section:
   weight: 3
   showOnNavbar: true
   template: "sections/experiences.html"
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# Your experiences
+
 experiences:
-
 - company:
     name: "ISI NC"
     url: "https://isi.nc"
@@ -27,7 +23,6 @@ experiences:
     - "Développement et intégration de solutions spécifiques"
     - "Maintenance et mise à jour des systèmes"
     - "Optimisation des processus et développement de nouveaux outils"
-
 - company:
     name: "OPT-NC"
     url: "https://office.opt.nc/fr"
@@ -45,7 +40,6 @@ experiences:
     - "Conception et développement d’applications mobiles"
     - "Développement de sites web"
     - "Création de logos et mascottes pour divers projets"
-
 - company:
     name: "Université de la Nouvelle-Calédonie - L2K Innovation"
     url: "https://unc.nc/"

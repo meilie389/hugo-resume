@@ -1,16 +1,13 @@
-# some information about you
 name: "PROFIL"
 nickname: "Émilie Bossart"
-# greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: ""
 image: ""
-# give your some contact information. they will be used in the footer
 contactInfo:
   email: "ebossart.dev@gmail.com"
   tel: "+687 84.04.82"
   github: "meilie389"
   linkedin: "meilie389"
 
-# some summary about what you do
+
 summary:
   - "Développeur Full Stack"

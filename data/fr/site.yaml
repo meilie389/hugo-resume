@@ -1,21 +1,14 @@
-# Copyright Notice
 copyright: "© 2020 Copyright."
+description: "CV meilie389"
 
-# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "Ce thème est sous licence MIT. Vous pouvez donc l'utiliser pour des usages non commerciaux, commerciaux ou privés.
 Vous pouvez modifier ou distribuer le thème sans nécessiter d'autorisation de l'auteur du thème.
 Cependant, l'auteur du thème ne fournit aucune garantie et n'assume aucune responsabilité en cas de problème avec le thème."
 
-# Meta description for your site.  This will help the search engines to find your site.
-description: "CV meilie389"
-
-# specify the list of custom menus that you want to show in the top navbar.
-# they will be separated by a divider from the main menus.
 # customMenus:
 # - name: Docs
 #   url: https://toha-guides.netlify.app/posts/
 
-# Specify OpenGraph Headers
 openGraph:
   title: "CV meilie389"
   type: "website"

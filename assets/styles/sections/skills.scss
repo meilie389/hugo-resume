@@ -1,0 +1,89 @@
+
+@use 'sass:map';
+
+$progress-bar-colors: (
+  'blue': #048dff,
+  'yellow': #eebb4d,
+  'pink': #ed63d2,
+  'green': #2dca73,
+  'sky': #00c9e3,
+  'orange': #ff7c7c,
+  'primary': #0891b2,
+);
+
+@mixin progress-bar-color() {
+  @each $color, $value in $progress-bar-colors {
+    &.#{$color} {
+      .progress-bar {
+        background-color: $value;
+      }
+    }
+  }
+}
+
+.skills-section {
+  .card {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: auto;
+    padding: 0 10px;
+    .card-head {
+      background-color: get-light-color('bg-primary') !important;
+      height: 100%;
+      padding: 0.7rem;
+      padding-bottom: 0;
+      border-bottom: none;
+      height: 100%;
+      .card-img-xs {
+        margin-right: 0.5rem;
+        margin-bottom: 0.75rem;
+      }
+    }
+    .card-body {
+      padding-top: 0.2rem;
+      padding-left: 0.7rem;
+    }
+  }
+  .progress.multi-section-progress {
+    display: flex;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    gap: 5px;
+    .progress-section {
+      height: 100%;
+      transition: width 0.6s ease;
+      position: relative;
+    }
+    @each $section, $color in $progress-bar-colors {
+      .#{$section} {
+        background-color: $color;
+      }
+    }
+  }
+  @include progress-bar-color();
+  @include media('<=tiny') {
+    .progress.multi-section-progress {
+      height: 8px;
+    }
+  }
+}
+
+html[data-theme='dark'] {
+  .skills-section {
+    .card {
+      .card-head {
+        background-color: get-dark-color('bg-card') !important;
+        border-bottom: 0.0625rem solid rgba(get-dark-color('accent-color'), 0.4);
+      }
+    }
+    .progress.multi-section-progress {
+      background-color: #333333;
+      .progress-section::after {
+        background-color: #444444;
+      }
+    }
+  }
+}

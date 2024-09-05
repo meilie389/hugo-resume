@@ -1,4 +1,3 @@
-# section information
 section:
   name: "À PROPOS"
   id: "about"
@@ -7,78 +6,70 @@ section:
   showOnNavbar: true
   template: "sections/about.html"
 
-# your designation
+
 designation: "Développeur"
-# your company information
 company:
   name: "ISI NC"
   url: "https://isi.nc/"
 
 
-# a summary about you
-summary: "Développeur Full Stack avec un parcours atypique, ayant débuté en mathématiques avant de me réorienter vers l'informatique.Diplômée d'une Licence Professionnelle en Métiers de l'Informatique : Applications Web, je travaille depuis janvier 2021 chez ISI NC, avec une mission en prestation à la DINUM depuis octobre 2022.Passionnée par le code et la résolution de problèmes complexes, je m'efforce de trouver des solutions simples et efficaces, quelle que soit la difficulté du projet.Mon expertise couvre un large éventail de technologies, du développement web et mobile à la gestion de projets."
+summary: "
+  Développeur Full Stack avec un parcours atypique, ayant débuté en mathématiques avant de me réorienter vers l'informatique.<br /><br />
+  Diplômée d'une Licence Professionnelle en Métiers de l'Informatique : Applications Web, je travaille depuis janvier 2021 chez ISI NC, avec une mission en prestation à la DINUM depuis octobre 2022.<br /><br />
+  Passionnée par le code et la résolution de problèmes complexes, je m'efforce de trouver des solutions simples et efficaces, quelle que soit la difficulté du projet.<br /><br />
+  Mon expertise couvre un large éventail de technologies, du développement web et mobile à la gestion de projets."
 
-# your social links
-# give as many as you want. use font-awesome for the icons.
+
 socialLinks:
 - name: "Email"
   icon: "fas fa-envelope"
   url: "ebossart.dev@gmail.com"
-
 - name: "Github"
   icon: "fab fa-github"
   url: "https://www.github.com/meilie389"
-
 - name: "LinkedIn"
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/meilie389/"
-
 - name: "Facebook"
   icon: "fab fa-facebook"
   url: "https://www.facebook.com/Miyako389"
 
-# You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
+
 resourceLinks:
 - title: "Mon CV"
-  url: "#"
+  url: "/files/resume.pdf"
 
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
+
 badges:
 - type: "soft-skill-indicator"
-  name: "Leadership"
-  percentage: 85
-  color: "blue"
-
-- type: "soft-skill-indicator"
-  name: "Team Work"
+  name: "Curiosité"
   percentage: 90
-  color: "yellow"
-
+  color: "green"
 - type: "soft-skill-indicator"
-  name: "Hard Working"
-  percentage: 85
-  color: "orange"
-
-- type: "soft-skill-indicator"
-  name: "Leadership"
-  percentage: 85
-  color: "blue"
-
-- type: "soft-skill-indicator"
-  name: "Team Work"
+  name: "Créativité"
   percentage: 90
-  color: "yellow"
-
+  color: "green"
 - type: "soft-skill-indicator"
-  name: "Hard Working"
-  percentage: 85
-  color: "orange"
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+  name: "Motivation"
+  percentage: 90
+  color: "green"
+- type: "soft-skill-indicator"
+  name: "Résolution de problèmes"
+  percentage: 80
+  color: "blue"
+- type: "soft-skill-indicator"
+  name: "Esprit Critique"
+  percentage: 80
+  color: "blue"
+- type: "soft-skill-indicator"
+  name: "Communication"
+  percentage: 80
+  color: "blue"
+- type: "soft-skill-indicator"
+  name: "Vision"
+  percentage: 70
+  color: "sky"
+- type: "soft-skill-indicator"
+  name: "Gestion du temps"
+  percentage: 60
+  color: "yellow"
