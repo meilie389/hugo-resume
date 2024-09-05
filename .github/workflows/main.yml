@@ -1,34 +1,44 @@
-name: GitHub Pages
+name: Merge to main workflows
 
+# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
-      - main
+    - main
 
 jobs:
-  build:
+  deploy-to-gh-pages:
     runs-on: ubuntu-latest
-
-    env:
-      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-      with:
-        submodules: true
+    # checkout to the commit that has been pushed
+    - uses: actions/checkout@v4
 
-    - name: Hugo setup
+    - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3.0.0
       with:
-        hugo-version: '0.122.0'
+        hugo-version: 'latest'
+        extended: true
+
+    - name: Update Hugo Modules
+      run: hugo mod tidy
+
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18
+
+    - name: Install node modules
+      run: |
+        hugo mod npm pack
+        npm install
 
     - name: Build
-      run: hugo
+      run: hugo --minify
 
+    # push the generated content into the `gh-pages` branch.
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4.0.0
       with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        github_token: ${{ secrets.GH_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
         publish_dir: ./public
