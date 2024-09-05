@@ -37,7 +37,7 @@ socialLinks:
 
 resourceLinks:
 - title: "Mon CV"
-  url: "/files/resume.pdf"
+  url: "/hugo-resume/files/resume.pdf"
 
 
 badges:
