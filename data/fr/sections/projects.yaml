@@ -1,27 +1,178 @@
 section:
-  name: "RPOJETS"
+  name: "PROJETS"
   id: "projects"
-  enable: false
+  enable: true
   weight: 4
-  showOnNavbar: false
+  showOnNavbar: true
   template: "sections/projects.html"
 
 
-# buttons:
-# - name: "Tous"
-#   filter: "all"
-# - name: "Professionnel"
-#   filter: "professional"
-# - name: "Académique"
-#   filter: "academic"
-# - name: "Loisirs"
-#   filter: "hobby"
+buttons:
+- name: "Tous"
+  filter: "all"
+- name: "Professionnel"
+  filter: "professional"
+- name: "Académique"
+  filter: "academic"
+- name: "Loisirs"
+  filter: "hobby"
 
 
-# projects:
-# - name: ""
-#   logo: ""
-#   role: ""
-#   timeline: ""
-#   summary: ""
-#   tags: ["", "", ""]
+projects:
+
+- name: "SCIDORA turbidité"
+  timeline: "5 Nov 2018 - 14 Déc 2018"
+  summary:
+    "Dans le cadre du stage du BTS SN de co-développement entre UNC et la start-up L2KInnovation.<br />
+    Contribution au développement d’une sonde de turbidité intégrée au système SCIDORA, une plateforme autonome de surveillance marine.<br />
+    Utilisation d'une platine Arduino pour mesurer et transmettre des données environnementales en temps réel, avec l'objectif de suivre la qualité de l'eau en milieu lagonaire."
+  tags: ["academic"]
+
+- name: "Bouteilles de gaz"
+  timeline: "1 Jul 2019 - 29 Nov 2019"
+  summary:
+    "Dans le cadre du projet tuteuré du BTS SN pour la société 3Telecom.<br />
+    Contribution au développement d'un système connecté pour mesurer et gérer le niveau de gaz dans des bouteilles,
+    incluant un capteur de masse, un modem LoRaWAN, et des applications web pour les utilisateurs et les opérateurs."
+  tags: ["academic", "PHP", "Laravel", "MySQL", "Apache", "LoRa"]
+
+- name: "CFA"
+  timeline: "Mai 2020 - Oct 2020"
+  summary:
+    "Dans le cadre de la licence professionnelle MIAW pour le CFA de l'UNC.<br />
+    Contribtion au développement d'une application de gestion des apprentis."
+  tags: ["academic", "PHP", "Symfony", "MySQL", "Apache"]
+
+- name: "Caillou Kaoutchou Tracker"
+  timeline: "Jul 2020"
+  summary:
+    "Dans le cadre de la licence professionnelle MIAW pour l'ASSNC (interrompu).<br />
+    Réalisation d'une application de géolocalisation des enseignes vendant des préservatifs de la marque \"Caillou Kaoutchou\"."
+  tags: ["academic"]
+
+- name: "Visite virtuelle IUT"
+  timeline: "Nov 2020"
+  summary:
+    "Dans le cadre de la licence professionnelle MIAW.<br />
+    Création d'une visite virtuelle interactive pour un l'Institut Universitaire de Technologie, visant à présenter les installations aux futurs étudiants ou visiteurs."
+  tags: ["academic"]
+
+- name: "Portfolio"
+  timeline: "6 Mars 2020"
+  summary: "Réalisation personnelle d'un site web statique contenant un portfolio de dessins."
+  tags: ["hobby", "HTML", "CSS", "JS"]
+
+- name: "Temps Attente"
+  timeline: "Mars 2020 - Août 2020"
+  summary:
+    "Dans le cadre de l'alternance à la DSI de l'OPT-NC.<br />
+    Contributions à la réalisation d'un SDK et d'une API pour les temps d'attente en agences OPT ainsi qu'un tableau de bord de visualisation de ces données."
+  tags: ["academic", "Java", "Elasticsearch", "Logstash", "Kibana"]
+
+- name: "Colis NC"
+  timeline: "Déc 2020"
+  summary:
+    "Dans le cadre de l'alternance à la DSI de l'OPT-NC.<br />
+    SDK Java et application Angular pour la recherche et le suivi des colis sur borne en Nouvelle-Calédonie."
+  tags: ["academic"]
+
+- name: "Carte Conso +"
+  timeline: "Mars-Août 2020"
+  summary:
+    "Dans le cadre de l'alternance à la DSI de l'OPT-NC.<br />
+    SDK et API et application mobile Open Source de la carte Conso+ en Nouvelle-Calédonie."
+  tags: ["academic", "Java", "Dart/Flutter"]
+
+- name: "Livre d'or GLIA"
+  timeline: "Juin 2020"
+  summary:
+    "Dans le cadre de l'alternance à la DSI de l'OPT-NC.<br />
+    Slideshow responsive du livre d'or des collaborateurs qui ont contribué au développement du bureau GLIA, à la de la DSI de l'OPT-NC."
+  tags: ["academic", "hobby", "HTML Reveal.js"]
+
+- name: "Emploi NC"
+  timeline: "Mars/Jul 2020"
+  summary:
+    "Dans le cadre de l'alternance à la DSI de l'OPT-NC.<br />
+    Réalisation de documentation sur l'API et conception d'un logo pour l'application mobile \"Offres Emplois Calédonie\" pour les offres d'emploi en Nouvelle-Calédonie.<br />
+    Dans le cadre de d'un hackaton à la DSI de l'OPT-NC.<br />
+    Réalisation d'un tableau de bord pour la visualisation des données des offres d'emploi"
+  tags: ["academic", "Elasticsearch", "Logstash", "Kibana"]
+
+- name: "CV"
+  timeline: "2020/2024"
+  summary:
+    "Réalisation de sites web statiques pour la présentation de CV"
+  tags: ["hobby", "Golang Hugo"]
+
+- name: "NiLab"
+  timeline: "Fév 2021 - Fév 2024"
+  summary:
+    "Contributions au développement d'une application web et mobile de suivi de production pour le laboratoire d'analyse de minerais de nickel NiLab."
+  tags: ["professional", "Angular", "Node.js", "React Native"]
+
+- name: "RDV.NC"
+  timeline: "Fév 2021"
+  summary:
+    "Corrections effectuées sur la plateforme en ligne de prise de rendez-vous gratuit avec des professionnels sur l'ensemble de la Nouvelle-Calédonie."
+  tags: ["professional", "React Next.js"]
+
+- name: "Process Recrutement"
+  timeline: "Juin-Déc 2021 / Avr 2022"
+  summary:
+    "Réalisation d'une application web pour la gestion des recrutements pour \"Process Recrutement\"."
+  tags: ["professional", "Angular"]
+
+- name: "Fronton"
+  timeline: "Jul-Oct 2021 / Jan-Avr 2022"
+  summary:
+    "Renfonte de l'application d'administration des membres et de la pointeuse à badges."
+  tags: ["professional", "Angular", "Golang"]
+
+- name: "PSud"
+  timeline: "Nov 2022"
+  summary:
+    "Contributions sur un projet réalisé pour la Province Sud"
+  tags: ["professional", "Angular"]
+
+- name: "Mutuelle du Commerce"
+  timeline: "Oct 2021 - Sept 2022 / Fév 2023"
+  summary:
+    "Contributions au développement de l'espace connecté du site de la Mutuelle du Commerce"
+  tags: ["professional", "Angular", "Golang", "Keycloak"]
+
+- name: "SMN"
+  timeline: "Août-Sept 2022 / Juin 2023"
+  summary:
+    "Contributions au développement d'une application de suivi de production pour la société minière SMT"
+  tags: ["professional", "Angular", "Golang"]
+
+- name: "SMCB"
+  timeline: "Juin 2024"
+  summary:
+    "Contributions au développement d'une application de suivi de production pour la société minière SMT"
+  tags: ["professional", "Angular", "Golang"]
+
+- name: "SMGM"
+  timeline: "Fév-Mars 2024"
+  summary:
+    "Contributions au développement d'une application de suivi de production pour la société minière SMGM"
+  tags: ["professional", "Angular", "Python Django"]
+
+- name: "FIAF"
+  timeline: "Mars 2024"
+  summary:
+    "Contributions apportés à l'outil interprofessionnel destiné à accompagner les employeurs du secteur privé dans leur démarche de formation professionnelle continue de leurs salariés."
+  tags: ["professional", "Angular", "Python Django"]
+
+- name: "NC Connect"
+  timeline: "Oct 2022 - Sept 2024"
+  summary:
+    "Contributions à la refonte et aux développements de la solution sécurisée et mutualisée d'authentification NC Connect."
+  tags: ["professional", "Angular", "Java", "Python Flask", "Docker", "Github Actions"]
+
+- name: "DAE"
+  timeline: "Avr-Mai / Jul-Août 2024"
+  summary:
+    "Contributions au développement d'une application pour aider à la protection des consommateurs, l'enregistrement des entreprises et la régulation du marché"
+  tags: ["professional", "Angular", "Java"]
