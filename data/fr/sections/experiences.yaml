@@ -40,6 +40,8 @@ experiences:
     - "Conception et développement d’applications mobiles"
     - "Développement de sites web"
     - "Création de logos et mascottes pour divers projets"
+    tools:
+    - "Java Spring Boot, Angular, JHipster, Docker"
 - company:
     name: "Université de la Nouvelle-Calédonie - L2K Innovation"
     url: "https://unc.nc/"
@@ -52,5 +54,9 @@ experiences:
     end: "Jan 2016"
     responsibilities:
     - "Platine Arduino et mesures environnementales en milieu lagonaire"
-    - "Conception et intégration d’une sonde de turbidité"
-    - "Développement d'un suivi des données de la sonde"
+    - "Conception et intégration d’un prototype d'une sonde de turbidité"
+    - "Conception d'un prototype d'une sonde de fluorescence chlorophylienne (secondaire)"
+    - "Développement d'un suivi des données de capteurs"
+    tools:
+    - "Photodiodes, LED, Résistances, Imprimante 3D, Sondes et solutions de formazine"
+    - "Arduino, Raspberry Pi, BeagleBone, Apache, MySQL, PHP, Python, JavaScript, Bootstrap, Mosquitto, MQTT"

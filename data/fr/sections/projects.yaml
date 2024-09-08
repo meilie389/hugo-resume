@@ -1,27 +1,80 @@
 section:
-  name: "RPOJETS"
+  name: "PROJETS"
   id: "projects"
-  enable: false
+  enable: true
   weight: 4
-  showOnNavbar: false
+  showOnNavbar: true
   template: "sections/projects.html"
 
 
-# buttons:
-# - name: "Tous"
-#   filter: "all"
-# - name: "Professionnel"
-#   filter: "professional"
-# - name: "Académique"
-#   filter: "academic"
-# - name: "Loisirs"
-#   filter: "hobby"
+buttons:
+- name: "Tous"
+  filter: "all"
+- name: "Professionnel"
+  filter: "professional"
+- name: "Académique"
+  filter: "academic"
+- name: "Loisirs"
+  filter: "hobby"
 
 
-# projects:
-# - name: ""
-#   logo: ""
-#   role: ""
-#   timeline: ""
-#   summary: ""
-#   tags: ["", "", ""]
+projects:
+
+- name: "SCIDORA turbidité"
+  timeline: "5 Nov 2018 - 14 Déc 2018"
+  summary: "Développement d'une sonde de turbidité intégrée à la plateforme SCIDORA pour le suivi en temps réel de la qualité de l'eau."
+  tags: ["academic"]
+
+- name: "Bouteilles de gaz"
+  timeline: "1 Jul 2019 - 29 Nov 2019"
+  summary: "Création d'un système connecté pour surveiller et gérer le niveau de gaz dans des bouteilles, avec capteur de masse et interface utilisateur."
+  tags: ["academic", "PHP", "Laravel", "MySQL", "Apache", "LoRa"]
+
+- name: "Portfolio"
+  timeline: "6 Mars 2020"
+  summary: "Réalisation d'un site web statique pour présenter un portfolio de dessins."
+  tags: ["academic", "hobby", "HTML", "CSS", "JS"]
+
+- name: "CFA"
+  timeline: "Mai 2020 - Oct 2020"
+  summary: "Développement d'une application de gestion des apprentis pour le CFA de l'UNC."
+  tags: ["academic", "PHP", "Symfony", "MySQL", "Apache"]
+
+- name: "Caillou Kaoutchou Tracker"
+  timeline: "Jul 2020"
+  summary: "Application de géolocalisation pour trouver les points de vente de préservatifs (interrompu)."
+  tags: ["academic", "PHP", "Symfony", "MySQL", "Apache"]
+
+- name: "Visite virtuelle IUT"
+  timeline: "Nov 2020"
+  summary: "Création d'une visite virtuelle interactive pour présenter les installations de l'IUT."
+  tags: ["academic", "Panolens.Js"]
+
+- name: "OPT-NC"
+  timeline: "Mars 2020 - Déc 2020"
+  summary:
+    "Dans le cadre de l'alternance à la DSI de l'OPT-NC.<br />
+    Développement de SDKs et d'APIs, d'une application mobile open source.<br />
+    Réalisation d'une application web pour affichage sur tablette, et création de tableaux de bord de données.<br />
+    Ajout des contributions au slideshow du bureau."
+  tags: ["academic", "professional", "Java", "Dart/Flutter", "Elasticsearch", "Logstash", "Kibana"]
+
+- name: "ISI.NC"
+  timeline: "Fév 2021 - Juin 2024"
+  summary:
+    "Contributions au développement d'applications web et mobiles pour divers clients, incluant le suivi de production pour des sociétés minières et des outils de gestion des recrutements.<br />
+    Participation à la refonte d'applications d'administration et d'outils de prise de rendez-vous en ligne.<br />
+    Développement d'espaces connectés pour des sites web et d'outils pour la formation professionnelle continue."
+  tags: ["professional", "Angular", "Node.js", "Golang", "Python Django", "React Native", "Keycloak", "Docker", "Kubernetes"]
+
+- name: "DINUM"
+  timeline: "Oct 2022 - Sept 2024"
+  summary:
+    "Contributions à la refonte et au développements d'une solution d'authentification sécurisée et d'une application pour la protection des consommateurs,
+    l'enregistrement des entreprises, et la régulation du marché"
+  tags: ["professional", "Angular", "Java", "Python Flask", "Docker", "Git", "Jenkins", "Github Actions"]
+
+- name: "CV"
+  timeline: "2020/2024"
+  summary: "Création de sites web statiques pour la présentation de CV."
+  tags: ["hobby", "Golang Hugo"]
